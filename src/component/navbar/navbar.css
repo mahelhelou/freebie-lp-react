@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+.rubik-font{
+    font-family: 'Rubik', sans-serif;
+}
+nav ul li a{
+    color: #4F5665 !important;
+}
+.fw-500{
+    font-weight: 500;
+}
+.sing-up{
+    border: 1px solid #F53855;    
+}
+.sing-up a{
+    color: #F53855 !important;
+
+}
