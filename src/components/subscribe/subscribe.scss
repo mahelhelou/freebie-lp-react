@@ -1,0 +1,26 @@
+.subscribe {
+  position: relative;
+  top: 6rem;
+  width: 850px;
+  margin: 0 auto;
+  height: 230px;
+  background: #fff;
+  border-radius: 10px;
+  .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 5rem;
+    .item {
+      h3 {
+        max-width: 300px;
+      }
+      .btn-subscribe {
+        background: #f53838;
+        padding: 17px 65px;
+        color: #fff;
+      }
+    }
+  }
+}

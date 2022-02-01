@@ -1,0 +1,163 @@
+.section-seven {
+  .items {
+    h3 {
+      font-size: 35px;
+      width: 447px;
+      font-weight: 500;
+      line-height: 50px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    p {
+      font-size: 16px;
+      line-height: 30px;
+      font-weight: 400;
+      text-align: center;
+      width: 555px;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+    .slider {
+      position: relative;
+      height: 500px;
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+        .swiper-button-next:after {
+          width: 60px;
+          position: absolute;
+          height: 60px;
+          content: '';
+          background: url('../../../public/assets/images/icons/right.png') no-repeat center
+            center/cover;
+          background-size: 60px 60px;
+        }
+        .swiper-button-prev:after {
+          content: '' !important;
+          width: 30px;
+          position: absolute;
+          height: 30px;
+          content: '';
+          background: url('../../../public/assets/images/icons/left.png') no-repeat center
+            center/cover;
+          background-size: 30px 30px;
+        }
+        .swiper-button-next {
+          margin-top: 8.9rem;
+          right: 4rem;
+        }
+        .swiper-button-prev {
+          left: 87%;
+          margin-top: 8.5rem;
+        }
+        .swiper-button-next,
+        .swiper-button-prev {
+          z-index: 555;
+        }
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .mySwiper {
+        position: relative;
+        .swiper-pagination {
+          opacity: 1;
+          text-align: left;
+          bottom: 80px;
+          left: 130px;
+          .swiper-pagination-bullet-active {
+            width: 30px;
+            background: #f53838;
+            border-radius: 3px;
+          }
+        }
+        .swiper-wrapper {
+          position: relative;
+          right: 18rem !important;
+          .swiper-slide.swiper-slide-active {
+            .card-container {
+              border: 2px solid #f53838;
+            }
+          }
+        }
+        .swiper-slide {
+          width: 400px !important;
+        }
+        .card-container {
+          height: 230px !important;
+          border: 2px solid #dddddd;
+          border-radius: 10px;
+          padding: 15px;
+        }
+        .slider-card {
+          width: 100%;
+          .seg {
+            .right {
+              display: flex;
+              align-items: center;
+            }
+            p {
+              width: 100%;
+            }
+            .right {
+              display: flex;
+              align-items: center;
+              span {
+                margin: 0 0.2rem;
+              }
+            }
+          }
+          .seg:nth-child(1) {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            .left {
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              .name {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                margin-left: 21px;
+                span:nth-child(2) {
+                  color: #4f5665;
+                }
+              }
+              img {
+                width: 50px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
