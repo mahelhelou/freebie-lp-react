@@ -16,3 +16,9 @@ nav ul li a{
     color: #F53855 !important;
 
 }
+@media (min-width: 576px) { 
+    .font-size-3{
+        font-size: 3rem;
+    }
+    
+ }
